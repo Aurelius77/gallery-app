@@ -59,5 +59,3 @@ License
 This project is licensed under the MIT License.
 
 Feel free to customize this README to include any additional information specific to your project, such as deployment instructions or special configurations. Good luck with your React Gallery project!
-
-

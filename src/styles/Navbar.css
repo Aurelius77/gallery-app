@@ -1,0 +1,65 @@
+.navbar{
+    background-image: url('../assets/back.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+    color: white;
+}
+
+.logo-img{
+    width: 20%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+}
+
+.right li{
+    margin-left: 20px;
+}
+
+.search-box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover{
+    background-color: white;
+    color: turquoise;
+    border: 1px solid turquoise;
+}
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .desk{
+        display: none;
+    }
+    .menu{
+        display: block;
+        font-size: 30px;
+    }
+
+    .search-box{
+        flex-direction: column;
+    }
+}

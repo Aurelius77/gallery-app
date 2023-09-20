@@ -25,6 +25,9 @@ A dynamic image gallery built with React, featuring drag-and-drop reordering and
 - Search for images by user name.
 - Skeleton loader for a smooth loading experience.
 - Responsive design for various screen sizes.
+- user detials for sign-in:
+- user@example.com
+- 1Password
 
 ## Installation
 
